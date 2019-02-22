@@ -23,7 +23,7 @@ with open('output.csv','w', newline='') as fd:
 	fd.write(output)
 
 # define parameters for slack 
-url = "https://hooks.slack.com/services/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"
+url = "https://hooks.slack.com/services/key-from-slack"
 headers = {
     'Content-Type': "application/json",
     'cache-control': "no-cache"
